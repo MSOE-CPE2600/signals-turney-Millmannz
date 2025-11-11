@@ -5,8 +5,8 @@
 
 /**
  * Modified by:
- * 
- * Brief summary of modifications:
+ * Zac Millmann
+ * Brief summary of modifications: Changed signal handler function to no longer exit now SIGKILL must be used
  */
 
 
@@ -20,7 +20,6 @@
  */
 void handle_signal() {
     printf("Received a signal\n");
-    exit(1);
 }
 
 int main() {
