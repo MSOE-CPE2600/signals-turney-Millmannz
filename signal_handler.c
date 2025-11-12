@@ -16,7 +16,7 @@
 #include <stdio.h>
 
 /**
- * @brief Signal handler for SIGINT - prints a message and exits
+ * @brief Signal handler for SIGINT - prints a message
  */
 void handle_signal() {
     printf("Received a signal\n");
